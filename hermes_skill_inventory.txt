@@ -1,5 +1,5 @@
-HERMES COMPLETE SKILL INVENTORY
-Total: 1808 unique skills across 31 categories
+HERMES COMPLETE SKILL INVENTORY (with builtin/hub)
+Total: 1959 unique skills across 32 categories (1886 installed + 73 builtin + 1 hub)
 
 
 ### forensics (867)
@@ -1739,8 +1739,87 @@ Total: 1808 unique skills across 31 categories
   [yara-rule-development] x1
       - yara-rule-development
 
-### offensive (437)
+### offensive (514)
 
+  [claude-red] x58
+      - offensive-active-directory
+      - offensive-advanced-redteam
+      - offensive-ai-security
+      - offensive-basic-exploitation
+      - offensive-bluetooth-ble
+      - offensive-bluetooth-classic
+      - offensive-bug-identification
+      - offensive-business-logic
+      - offensive-cloud
+      - offensive-crash-analysis
+      - offensive-deauth-disassoc
+      - offensive-deserialization
+      - offensive-edr-evasion
+      - offensive-evil-twin
+      - offensive-exploit-dev-course
+      - offensive-exploit-development
+      - offensive-fast-checking
+      - offensive-file-upload
+      - offensive-fuzzing
+      - offensive-fuzzing-course
+      - offensive-graphql
+      - offensive-idor
+      - offensive-initial-access
+      - offensive-iot
+      - offensive-jwt
+      - offensive-keylogger-arch
+      - offensive-krack-fragattacks
+      - offensive-lorawan-sub-ghz
+      - offensive-mitigations
+      - offensive-mobile
+      - offensive-oauth
+      - offensive-open-redirect
+      - offensive-osint
+      - offensive-osint-methodology
+      - offensive-parameter-pollution
+      - offensive-race-condition
+      - offensive-rce
+      - offensive-reporting
+      - offensive-request-smuggling
+      - offensive-shellcode
+      - offensive-sqli
+      - offensive-ssrf
+      - offensive-ssti
+      - offensive-toctou
+      - offensive-vuln-classes
+      - offensive-waf-bypass
+      - offensive-wifi
+      - offensive-wifi-recon
+      - offensive-windows-boundaries
+      - offensive-windows-mitigations
+      - offensive-wpa-enterprise
+      - offensive-wpa2-psk
+      - offensive-wpa3-sae
+      - offensive-wps
+      - offensive-xss
+      - offensive-xxe
+      - offensive-z-wave
+      - offensive-zigbee-thread-matter
+  [masriyan-ccs] x19
+      - 01-recon-osint
+      - 02-vulnerability-scanner
+      - 03-exploit-development
+      - 04-reverse-engineering
+      - 05-malware-analysis
+      - 06-threat-hunting
+      - 07-incident-response
+      - 08-network-security
+      - 09-web-security
+      - 10-cloud-security
+      - 11-csoc-automation
+      - 12-log-analysis
+      - 13-crypto-analysis
+      - 14-red-team-ops
+      - 15-blue-team-defense
+      - 16-ai-llm-security
+      - 17-mobile-security
+      - 18-ot-ics-security
+      - 19-grc-compliance
   [1337] x1
       - 1337
   [1337-brain] x1
@@ -3334,6 +3413,18 @@ Total: 1808 unique skills across 31 categories
 
 ### ctf (23)
 
+  [ljagiello-ctf] x11
+      - ctf-ai-ml
+      - ctf-crypto
+      - ctf-forensics
+      - ctf-malware
+      - ctf-misc
+      - ctf-osint
+      - ctf-pwn
+      - ctf-reverse
+      - ctf-web
+      - ctf-writeup
+      - solve-challenge
   [ctf-ai-ml] x1
       - ctf-ai-ml
   [ctf-crypto] x1
@@ -3356,18 +3447,6 @@ Total: 1808 unique skills across 31 categories
       - ctf-web
   [ctf-writeup] x1
       - ctf-writeup
-  [ljagiello-ctf] x11
-      - ctf-ai-ml
-      - ctf-crypto
-      - ctf-forensics
-      - ctf-malware
-      - ctf-misc
-      - ctf-osint
-      - ctf-pwn
-      - ctf-reverse
-      - ctf-web
-      - ctf-writeup
-      - solve-challenge
   [solve-challenge] x1
       - solve-challenge
 
@@ -3696,7 +3775,94 @@ Total: 1808 unique skills across 31 categories
   [api-key-hunter] x1
       - api-key-hunter
 
+### skills-import (1)
+
+  [bulk-skill-repo-import] x1
+      - bulk-skill-repo-import
+
 ### prose-walkthrough (1)
 
   [prose-walkthrough] x1
       - prose-walkthrough
+
+
+### builtin (73)
+  [builtin] x73
+      - airtable
+      - architecture-diagram
+      - arxiv
+      - ascii-art
+      - ascii-video
+      - baoyu-infographic
+      - blogwatcher
+      - claude-code
+      - claude-design
+      - codebase-inspection
+      - codex
+      - comfyui
+      - competitor-news-mon…
+      - computer-use
+      - design-md
+      - document-to-action-…
+      - docx
+      - dogfood
+      - email-inbox-triage
+      - evaluating-llms-har…
+      - excalidraw
+      - gif-search
+      - github-auth
+      - github-code-review
+      - github-issue-to-pr
+      - github-issues
+      - github-pr-workflow
+      - github-repo-managem…
+      - google-workspace
+      - grounded-citations
+      - hermes-agent
+      - hermes-agent-skill-…
+      - himalaya
+      - huggingface-hub
+      - humanizer
+      - inspecting-hermes-d…
+      - llama-cpp
+      - llm-wiki
+      - manim-video
+      - maps
+      - meeting-action-items
+      - nano-pdf
+      - node-inspect-debugg…
+      - notion
+      - obsidian
+      - ocr-and-documents
+      - opencode
+      - openhue
+      - p5js
+      - pdf
+      - plan
+      - popular-web-designs
+      - powerpoint
+      - pretext
+      - product-price-monit…
+      - python-debugpy
+      - requesting-code-rev…
+      - research-paper-writ…
+      - serving-llms-vllm
+      - simplify-code
+      - sketch
+      - songsee
+      - songwriting-and-ai-…
+      - spike
+      - systematic-debugging
+      - teams-meeting-pipel…
+      - test-driven-develop…
+      - touchdesigner-mcp
+      - weekly-review-plann…
+      - weights-and-biases
+      - xlsx
+      - xurl
+      - youtube-content
+
+### hub (2)
+  [hub] x1
+      - ctf-writeup
+TOTAL (including builtin/hub): 1959
